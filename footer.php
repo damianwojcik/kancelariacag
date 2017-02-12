@@ -91,7 +91,7 @@
 			<div class="span3">
 
 				<p class="copy">
-					made with passion &copy; by <a href="https://www.facebook.com/khamian">khamian</a>
+					made with passion &copy; by <a href="https://www.damianwojcik.it" target="_blank">damianwojcik.it</a>
 				</p>
 
 			</div>
