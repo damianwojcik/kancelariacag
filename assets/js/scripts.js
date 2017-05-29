@@ -12,10 +12,8 @@ jQuery(document).ready(function($){
 	mobile_menu_toggle();
 	cookies_popup();
 
-
 	//ninja form placeholder
-  $('#ninja_forms_field_9').attr("placeholder","Wiadomość");
-
+  	$('#ninja_forms_field_9').attr("placeholder","Wiadomość");
 
 
 	var $body = $('body'),

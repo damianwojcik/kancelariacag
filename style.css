@@ -1038,7 +1038,8 @@ footer a:hover{
     color: #FFF;
 }
 
-footer nav ul{
+footer nav ul,
+.page-template-page-services footer ul{
   list-style-type: none;
 }
 
