@@ -5,7 +5,6 @@
 	add_action( 'wp_enqueue_scripts', 'enqueue_styles' );
 	add_action( 'wp_footer', 'enqueue_scripts' );
 
-
 	function enqueue_styles() {
 
 		// load styles
@@ -19,6 +18,7 @@
 		// load scripts
 		wp_enqueue_script("jquery");
 		wp_enqueue_script( 'site_scripts', THEME_URL . '/assets/js/scripts.min.js', '', NULL);
+        wp_enqueue_script( 'google_map', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAU8h2DmJVlP6z2MyyJaSaVcqvgc-0TZO8' , '', NULL);
 
 	}
 

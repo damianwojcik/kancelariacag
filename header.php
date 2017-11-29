@@ -34,7 +34,7 @@
 	<div class="container">
 
 		<div class="br-only">Na stronie wykorzystujemy Cookies, między innymi w celach statystycznych. <span>Akceptuję Cookies</span></div>
-		<div class="sr-only">Korzystamy z Cookies. <span>Akceptuję</span></div>
+		<div class="mobile-only">Korzystamy z Cookies. <span>Akceptuję</span></div>
 
 	</div>
 </div>

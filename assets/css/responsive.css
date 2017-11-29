@@ -208,8 +208,8 @@
 		margin-bottom: 0;
 	}
 
-	#cookies-section .sr-only{
-	display: block;
+	#cookies-section .mobile-only{
+		display: block;
 	}
 
 	#cookies-section .br-only{

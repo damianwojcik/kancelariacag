@@ -5,7 +5,10 @@
 	define("TEMPLATE_PATH", get_stylesheet_directory() .'/');
 	define("SITE_URL", site_url());
 
-	//include php files
+    show_admin_bar(false);
+
+
+    //include php files
 	foreach ( glob ( TEMPLATE_PATH . "incl/*.php" ) as $filename ) {
 		include $filename;
 	}

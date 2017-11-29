@@ -72,7 +72,7 @@
 
 		<div class="row">
 
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.3417660888394!2d19.013116215724008!3d50.24820087944796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716ce5024f94c2b%3A0xd915e97470ca3f0e!2sAstr%C3%B3w+10%2C+Katowice!5e0!3m2!1spl!2spl!4v1462187788861" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div id="map"></div>
 
 		</div>
 

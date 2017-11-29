@@ -11,6 +11,7 @@ jQuery(document).ready(function($){
 	members_carousel();
 	mobile_menu_toggle();
 	cookies_popup();
+    initMap();
 
 	//ninja form placeholder
   	$('#ninja_forms_field_9').attr("placeholder","Wiadomość");
@@ -94,6 +95,30 @@ jQuery(document).ready(function($){
         });
 
 	}
+
+    // google map
+    function initMap() {
+
+        var mapElement = document.getElementById('map');
+
+        if (mapElement) {
+
+            var myLatLng = {lat: 50.248424, lng: 19.015111};
+
+            var map = new google.maps.Map(mapElement, {
+                zoom: 13,
+                center: myLatLng,
+                scrollwheel: false,
+                disableDoubleClickZoom: true
+            });
+
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Tu jesteśmy!'
+            });
+        }
+    }
 
 
 });
