@@ -91,7 +91,7 @@
 			<div class="span3">
 
 				<p class="copy">
-					Z dumą wykonane &copy; 2016 przez <a href="http://www.damianwojcik.it" target="_blank">damianwojcik.it</a>
+					Z dumą wykonane &copy; 2016 przez <a href="http://dwojcik.pro/" target="_blank">dwojcik.pro</a>
 				</p>
 
 			</div>
